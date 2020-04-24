@@ -40,7 +40,6 @@ jobs:
   environment:
     name: shaun-ubuntuVM
     resourceType: VirtualMachine
-    tags: web1
   dependsOn: Build
   strategy:
     rolling:
