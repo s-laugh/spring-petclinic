@@ -34,7 +34,7 @@ jobs:
       TargetFolder: $(Build.ArtifactStagingDirectory)
   - upload: $(Build.ArtifactStagingDirectory)
     artifact: drop
-%
+
 - deployment: VMDeploy
   displayName: Deploy to VM
   environment:
